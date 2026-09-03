@@ -1,0 +1,32 @@
+{
+    "ques": 9,
+    "name": "isPalindrome",
+    "args": [
+        12321,
+        -121,
+        141
+    ],
+    "fn": "function isPalindrome(num) {   const copy = num;   let digit = 0, lastDigit;   if (num < 0)     return !1;   while (num > 0) {     lastDigit = num % 10;     digit = digit * 10 + lastDigit;     num = Math.floor(num / 10);   }   return digit === copy; }",
+    "results": [
+        {
+            "input": 12321,
+            "result": true
+        },
+        {
+            "input": -121,
+            "result": false
+        },
+        {
+            "input": 141,
+            "result": true
+        }
+    ],
+    "totalTime": 0.07122000000000384,
+    "averageTime": 0.023740000000001277,
+    "operationsPerSecond": 42122.99915753775,
+    "heapChange": 0,
+    "complexity": {
+        "time": "Unknown",
+        "space": "Unknown"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "leetcode",
+  "private": true,
+  "scripts": {
+    "setup": "bun run ./util/setup.ts",
+"leetcode": "bun scripts/leetcode/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^26.4.1",
+    "bun-types": "^1.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
