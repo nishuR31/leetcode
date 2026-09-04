@@ -21,9 +21,9 @@ This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com)
 
 | Difficulty | Solved | Progress |
 |:--|--:|:--|
-| Easy | 5/962 | `░░░░░░░░░░░░░░░░░░░░` 0.5% |
+| Easy | 8/962 | `░░░░░░░░░░░░░░░░░░░░` 0.8% |
 | Medium | 0/2109 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
 | Hard | 0/971 | `░░░░░░░░░░░░░░░░░░░░` 0.0% |
-| **Total** | **5/4042** | **0.1%** |
+| **Total** | **8/4042** | **0.2%** |
 
 <!-- LEETCODE_STATS_END -->
