@@ -1,0 +1,50 @@
+{
+    "ques": 50,
+    "name": "myPow",
+    "args": [
+        [
+            2,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            34,
+            54
+        ]
+    ],
+    "fn": "function myPow(x, n) {   if (n === 0)     return 1;   if (x === 1)     return 1;   if (n < 0)     return 1 / myPow(x, -n);   let max = myPow(x, Math.floor(n / 2));   if (n & 1)     x = max * max * x;   else     x = max * max;   return x; }",
+    "results": [
+        {
+            "input": [
+                2,
+                4
+            ],
+            "result": 16
+        },
+        {
+            "input": [
+                3,
+                6
+            ],
+            "result": 729
+        },
+        {
+            "input": [
+                34,
+                54
+            ],
+            "result": 5.0102744987272574e+82
+        }
+    ],
+    "totalTime": 0.12462000000000018,
+    "averageTime": 0.041540000000000056,
+    "operationsPerSecond": 24073.182474723126,
+    "heapChange": 0,
+    "complexity": {
+        "time": "Unknown",
+        "space": "Unknown"
+    }
+}
