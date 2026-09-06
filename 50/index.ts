@@ -14,4 +14,4 @@ function myPow(x: number, n: number): number {
 
 };
 
-benchmark(50, "myPow", myPow, [[2, 4], [3, 6], [34, 54]]);
+benchmark(50, "myPow", myPow, [[2, 4], [3, 6], [34, 2354]]);

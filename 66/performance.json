@@ -1,0 +1,105 @@
+{
+    "ques": 66,
+    "name": "plusOne",
+    "args": [
+        [
+            [
+                7,
+                9,
+                6,
+                9
+            ]
+        ],
+        [
+            [
+                9,
+                9,
+                9
+            ]
+        ],
+        [
+            [
+                4,
+                8,
+                9
+            ]
+        ],
+        [
+            [
+                2,
+                7,
+                6
+            ]
+        ]
+    ],
+    "fn": "function plusOne(digits) {   for (let i = digits.length - 1;i >= 0; i--) {     if (digits[i] < 9) {       digits[i]++;       return digits;     }     digits[i] = 0;   }   digits.unshift(1);   return digits; }",
+    "results": [
+        {
+            "input": [
+                [
+                    7,
+                    9,
+                    6,
+                    9
+                ]
+            ],
+            "result": [
+                7,
+                9,
+                7,
+                0
+            ]
+        },
+        {
+            "input": [
+                [
+                    9,
+                    9,
+                    9
+                ]
+            ],
+            "result": [
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "input": [
+                [
+                    4,
+                    8,
+                    9
+                ]
+            ],
+            "result": [
+                4,
+                9,
+                0
+            ]
+        },
+        {
+            "input": [
+                [
+                    2,
+                    7,
+                    6
+                ]
+            ],
+            "result": [
+                2,
+                7,
+                7
+            ]
+        }
+    ],
+    "totalTime": 0.07769799999999805,
+    "averageTime": 0.01942449999999951,
+    "operationsPerSecond": 51481.376612011896,
+    "heapChange": 0,
+    "complexity": {
+        "time": "Unknown",
+        "space": "Unknown"
+    }
+}

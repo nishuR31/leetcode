@@ -37,6 +37,7 @@ export default function benchmark<
   args: readonly TArgs[],
   complexity?: Complexity,
 ): Data<TArgs, R> {
+
   if (args.length === 0) {
     throw new Error("Benchmark requires at least one argument");
   }
@@ -52,8 +53,13 @@ export default function benchmark<
   }> = [];
 
   for (const input of args) {
-    const result = fn(...input);
 
+    // Give the function its own copy
+    const executionInput = structuredClone(input);
+
+    const result = fn(...executionInput);
+
+    // `input` is still the original
     results.push({
       input,
       result,
