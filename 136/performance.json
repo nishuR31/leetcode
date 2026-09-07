@@ -1,0 +1,38 @@
+{
+    "ques": 136,
+    "name": "singleNumber",
+    "args": [
+        [
+            [
+                4,
+                1,
+                2,
+                1,
+                2
+            ]
+        ]
+    ],
+    "fn": "function singleNumber(nums) {   return nums.reduce((acc, ini) => acc ^ ini, 0); }",
+    "results": [
+        {
+            "input": [
+                [
+                    4,
+                    1,
+                    2,
+                    1,
+                    2
+                ]
+            ],
+            "result": 4
+        }
+    ],
+    "totalTime": 0.19704699999999775,
+    "averageTime": 0.19704699999999775,
+    "operationsPerSecond": 5074.931361553393,
+    "heapChange": 0,
+    "complexity": {
+        "time": "Unknown",
+        "space": "Unknown"
+    }
+}
