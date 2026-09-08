@@ -1,0 +1,26 @@
+{
+    "ques": 58,
+    "name": "lengthOfLastWord",
+    "args": [
+        [
+            "What you know"
+        ]
+    ],
+    "fn": "function lengthOfLastWord(s) {   return s.trim().split(/\\s+/).pop().length; }",
+    "results": [
+        {
+            "input": [
+                "What you know"
+            ],
+            "result": 4
+        }
+    ],
+    "totalTime": 0.2777150000000006,
+    "averageTime": 0.2777150000000006,
+    "operationsPerSecond": 3600.813783915157,
+    "heapChange": 0.0166015625,
+    "complexity": {
+        "time": "Unknown",
+        "space": "Unknown"
+    }
+}
